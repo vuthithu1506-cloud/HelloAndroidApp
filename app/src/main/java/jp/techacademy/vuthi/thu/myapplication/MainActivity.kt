@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import jp.techacademy.vuthi.thu.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,6 +39,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Good morning $name!",
         color = Color.Blue,
         fontWeight = FontWeight.Bold,
+        fontSize = 32.sp,
         modifier = modifier
     )
 }
